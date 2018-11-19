@@ -1,7 +1,7 @@
 require "pry"
 
-ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+ESPERANTOd_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
 def alphabetize(arr)
-  arr.sort_by { |a| a.split("").map{ |char| ESPERANTO_ALPHABET.index(char) } }
+  arr.sort_by { |a| a.split("").map{ |char| ESPERANTOd_ALPHABET.index(char) } }
 end
