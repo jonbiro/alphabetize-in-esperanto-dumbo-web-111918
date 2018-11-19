@@ -1,6 +1,6 @@
 
-ESPERANTO_ALPHABET = " abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+esperanto_alph = " abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
 def alphabetize(arr)
-  arr.sort_by { |a| a.split("").map{ |char| ESPERANTO_ALPHABET.index(char) } }
+  arr.sort_by { |a| a.split("").map{ |char| esperanto_alph.index(char) } }
 end
